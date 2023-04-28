@@ -37,8 +37,8 @@
             <main >
                 <div id="home_container">
                     <div id="text">
-                        <h1>We are a StartUp Creative Kucra Agency</h1>
-                        <p>Carefully crafted after analysing the needs of different industries and the design achieves a greeat balance between purpose & presentation</p>
+                        <h1>We are StartUp Creative Kucra Agency</h1>
+                        <p>Carefully crafted after analysing the needs of different industries and the design achieves a great balance between purpose & presentation</p>
                         <form action="" method="POST">
                             <input type="text" name="email" placeholder="Enter your email">
                             <input type="submit" name="submit" value="SUBSCRIBE">
@@ -68,8 +68,98 @@
                     <h3>Strategy Solutions</h3>
                     <p>Separated they live in Bookmarks grove right at the coast of the Semantics, a large ocean regelialia.</p>
                 </article>
-                
             </div>
-        </section>    
+        </section>
+        <section id="team">
+
+        <h2>We'r dynamic team of talented people of innovative & marketing expert</h2>
+        <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more commun words.
+            If several languages of the resulting language.</p>
+
+        <div id="team_photos">
+
+            <article>
+                <h4>1499+</h4>
+                <p>Complete Projects</p>
+            </article>
+
+            <article>
+                <h4>1080K</h4>
+                <p>Satisfied Clients</p>
+            </article>
+
+            <article>
+                <h4>608</h4>
+                <p>Team Members</p>
+            </article>
+
+            <article>
+                <h4>252</h4>
+                <p>Employees</p>
+            </article>
+
+        </div>
+
+        <div id="portraits">
+            <div class="team_card">
+                <div class="team_card_header">
+                    <img src="img/person1.png" alt="Anna G. Wilhite">
+                    <div class="social_medias_logo_team">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://google.com"><i class="fa-brands fa-skype"></i></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h5>Anna G. Wilhite</h5>
+                    <p>CEO/Founder<p>
+                </div>
+            </div>
+            <div class="team_card">
+                <div class="team_card_header">
+                    <img src="img/person2.png" alt="William S. Blay">
+                    <div class="social_medias_logo_team">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://google.com"><i class="fa-brands fa-skype"></i></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h5>William S. Blay</h5>
+                    <p>CTO/Co-Founder<p>
+                </div>
+            </div>
+            <div class="team_card">
+                <div class="team_card_header">
+                    <img src="img/person3.png" alt="Maria B. Morales">
+                    <div class="social_medias_logo_team">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://google.com"><i class="fa-brands fa-skype"></i></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h5>Maria B. Morales</h5>
+                    <p>Web Designer<p>
+                </div>
+            </div>
+            <div class="team_card">
+                <div class="team_card_header">
+                    <img src="img/person4.png" alt="Luke L. Johnston">
+                    <div class="social_medias_logo_team">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://google.com"><i class="fa-brands fa-skype"></i></a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h5>Luke L. Johnston</h5>
+                    <p>Web Developer<p>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+    
     </body>
 </html>
