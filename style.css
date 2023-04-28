@@ -66,6 +66,11 @@
         font-size: 1.1em;
     }
 
+    header a:hover{
+        color: rgba(255, 255, 255, 0.72);
+        transition: 0.5s;
+    }
+
     header #header_social{
         display: flex;
         align-items: center;
@@ -120,6 +125,7 @@
         border: none;
         font-size: 16px;
         outline: none;
+        padding: 0 0 0 10px;
     }
 
     #text form button {
@@ -155,7 +161,6 @@
 
     #text form input:last-of-type:hover {
         opacity: 70%;
-        transform: translateX(5px);
     }
 
     #home_cat {
