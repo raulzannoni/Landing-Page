@@ -23,7 +23,7 @@
         position: relative;
     }
 
-/* ------------------- section 1 -------------------- */   
+/* ------------------- Section HOME -------------------- */   
 /* ------------------- HEADER -------------------- */ 
 
     header{
@@ -164,3 +164,86 @@
         display: inline;
     }
 
+    /* ------------------- SECTION FEATURES -------------------- */ 
+   
+    #features {
+        display:flex;
+        flex-direction: column;
+        padding: 10% 0;
+    }
+    
+    #features h2 {
+        display: flex;
+        justify-content: center;
+        font-size:34px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0.5em 0;
+    }
+
+    #features h2 + p {
+        display:flex;
+        justify-content: center;
+        margin:auto;
+        text-align: center;
+        font-size: 18px;
+        opacity:50%;
+        width:40%;
+    }
+
+
+
+    #features_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 3em;
+        margin-bottom: 5em;
+    }
+
+    #features_container h3 {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+    }
+    
+    #features_container h3+p {
+        width:90%;
+        margin:0 auto;
+    }
+    
+    #features_container > article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color:white;
+        text-align:center;   
+    }
+
+    .features_products {
+        width:450px;
+        height:450px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background: radial-gradient(rgb(151, 198, 240), #319cb9);
+        margin:0.75em;
+        padding:1.25em;
+        position:relative;
+        overflow: hidden;
+        transition:0.3s;
+    }
+
+    .features_products:hover {
+        transform: translate(0, -0.75em);
+    }
+
+    .features_products h3 p {
+        font-size:18px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .features_products .fa-solid { 
+        font-size: 5em;
+        margin-bottom: 0.5em;
+    }
