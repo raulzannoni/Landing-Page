@@ -14,10 +14,39 @@
                 <div id="header_kucra">
                     <h2>Kucra</h2>
                 </div>
+                <div id="header_search">
+                    <ul>
+                        <li><a class="nav_text">HOME</a></li>
+                        <li><a class="nav_text">FEATURES</a></li>
+                        <li><a class="nav_text">CLIENT</a></li>
+                        <li><a class="nav_text">PRICING</a></li>
+                        <li><a class="nav_text">FAQ</a></li>
+                        <li><a class="nav_text">ABOUT</a></li>
+                        <li><a class="nav_text">BLOG</a></li>
+                        <li><a class="nav_text">CONTACT</a></li>
+                    <ul>
+                </div>
+                <div id="header_social">
+                        <ul>
+                            <li><a class="social_logo"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a class="social_logo"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a class="social_logo"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
             </header>
-            <main>
-            <h1>We are a StartUp Creative Kucra Agency</h1>
-                    <p>Carefully crafted after analysing the needs of different industries and the design achieves a greeat balance between purpose & presentation</p>
+            <main >
+                <div id="home_container">
+                    <div id="text">
+                        <h1>We are a StartUp Creative Kucra Agency</h1>
+                        <p>Carefully crafted after analysing the needs of different industries and the design achieves a greeat balance between purpose & presentation</p>
+                        <form action="" method="POST">
+                            <input type="text" name="email" placeholder="Enter your email">
+                            <input type="submit" name="submit" value="SUBSCRIBE">
+                        </form>
+                    </div>
+
+                    <img src="illustration.svg" alt="image_ordinateur_clique" id="home_cat">
+                </div>
             </main>   
         </section>    
     </body>
