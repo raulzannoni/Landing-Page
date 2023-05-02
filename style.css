@@ -19,7 +19,6 @@
     }
 
     body {
-        
         position: relative;
     }
 
@@ -28,24 +27,29 @@
 
     header{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 3% 0;
-        margin: 0 5%;
+        flex-direction: row; /* header en ligne */
+        justify-content: space-between; /*  objets distribuités pairement*/
+        align-items: center; /* centrés dans l'axe x */
+        padding: 3% 0; /*padding en percentage seulement en haut et en bas  */
+        margin: 0 5%; /* margin en percentage seulement à gauche et à droite  */
     }
 
-    header h2{
-        width:fit-content;
+    header h2{ /* Element de text h2: Kucra*/
+        width:fit-content; 
         font-size: 2.5em;
         color:white;
         font-weight: bold;
         letter-spacing: 0.05em; 
-        padding:17.6px;
+        padding: 17.6px;
         flex-grow: 0.2;
     }
 
-    header #header_search {
+    header h2:hover{ /*transition en gris de le text kucra*/
+        color: rgba(255, 255, 255, 0.72);
+        transition: 0.5s;
+    }
+
+    header #header_search {/* les elements de header search*/
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -53,20 +57,20 @@
         justify-content: center;
     }
 
-    header div ul{
+     header div ul{ 
         display: inline-flex;
         list-style: none;
         flex-direction: row;
     }
 
-    header a{
+    header a{/* les elements de header search*/
         color: white;
         text-decoration: none;
         padding: 1em;
         font-size: 1.1em;
     }
 
-    header a:hover{
+    header a:hover{ /*transition en gris de les autres elements de l'header*/
         color: rgba(255, 255, 255, 0.72);
         transition: 0.5s;
     }
@@ -78,12 +82,12 @@
 
     /* ------------------- MAIN -------------------- */ 
 
-    main #home_container {
+    main #home_container { /* container: text + image en ligne*/
         display:flex;
         flex-direction: row;
         justify-content: center;
         align-items: stretch;
-        margin: 0 5%;
+        margin: 0 5%; /* margin en percentage seulement à droite et à gauche*/
     }
 
     #text {
