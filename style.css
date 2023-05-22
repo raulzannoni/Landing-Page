@@ -384,7 +384,68 @@
         text-align: center;
     }
 
+    /* ------------------- PARALLAX -------------------- */ 
     
-
+    #parallax {
+        color:white;
+        background-image: url("./img/parallax.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding:10% 0;
+    }
+    
+    #parallax_overlay {
+        position: absolute;
+        background-color: rgb(25,25,25, 0.8);
+        width: 100%;
+        height: 100%;
+    }
+    
+    #parallax h3 {
+        color: rgb(255, 255, 255);
+        margin-bottom: 0.5em;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    #parallax p {
+        width:60%;
+        font-size: 18px;
+        opacity: 70%;
+        text-align: center;
+    }
+    
+    #parallax {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    #parallax a {
+        text-decoration: none;
+        color:white;
+        font-weight: 400;
+        border-radius: 5px;
+        font-size: 20px;
+        padding:0.5rem 2rem;
+        border:0.5px solid white;
+        transition: .3s;
+    }
+    
+    #parallax a:hover {
+        cursor: pointer;
+        color:black;
+        background-color: white;
+    }
 
     
