@@ -158,7 +158,67 @@
             <p>They are a good way to get you started if you want to build something similar or use from existing apps
                 which will reduce the cost, efforts and time of the developers.</p>
             <a href="">Get Started</a>
-        </section>  
+        </section>
+        <section id="blog">
+        <h2>Our Blog</h2>
+        <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+        <div id="blog_articles">
+            <div class="blog_card">
+                <div class="blog_card_header">
+                    <img src="img/blog1.png" alt="">
+                    <div class="article_infos">
+                        <div class="author">
+                            <i class="fa-regular fa-user"></i>
+                            <p>Calvin Carlo</p>
+                        </div>
+                        <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>20th March 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>Doing a cross country road trip</h3>
+                <p>We craft digital, graphic and dimensional thinking, to create category leading brand.</p>
+                <a href="">Read more</a>
+            </div>
+            <div class="blog_card">
+                <div class="blog_card_header">
+                    <img src="img/blog2.png" alt="">
+                    <div class="article_infos">
+                        <div class="author">
+                            <i class="fa-regular fa-user"></i>
+                            <p>Ruben Reed</p>
+                        </div>
+                        <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>01th July 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>New exhibition at our Museum</h3>
+                <p>Even the all-powerful Pointing has no control about the blind almost unorthographic.</p>
+                <a href="">Read more</a>
+            </div>
+            <div class="blog_card">
+                <div class="blog_card_header">
+                    <img src="img/blog3.png" alt="">
+                    <div class="article_infos">
+                        <div class="author">
+                            <i class="fa-regular fa-user"></i>
+                            <p>Theresa Sinclair</p>
+                        </div>
+                        <div class="date">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>25th July 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <h3>Design your apps in your own way</h3>
+                <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                <a href="">Read more</a>
+            </div>
+        </div>
+    </section>  
         
     
     </body>
