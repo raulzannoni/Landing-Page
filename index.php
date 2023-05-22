@@ -218,7 +218,38 @@
                 <a href="">Read more</a>
             </div>
         </div>
+    </section>
+    <section id="clientsays">
+        <h2>What your client says</h2>
+        <p>The Big Oxmox Advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious pulvinar
+            metus molestie sed Semikoli.</p>
+        <div id="client_logos">
+            <img src="img/01.png" alt="coffee_logo">
+            <img src="img/02.png" alt="fisherman_logo">
+            <img src="img/03.png" alt="coffee_moutainbike">
+            <img src="img/04.png" alt="coffee_mountain">
+            <img src="img/05.png" alt="coffee_market">
+        </div>
     </section>  
+    <section id="creativity">
+        <div id="creativity_text">
+            <h3>We are digital creative Landing Page</h3>
+            <p>The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack
+                of will. Composed in a pseudo-latin language which more or less pseudo-Latin language correponds.</p>
+            <div id="creativity_milestone">
+                <div class="milestone">
+                    <h4>4957</h4>
+                    <p>Happy Users</p>
+                </div class="milestone">
+                <div class="milestone">
+                    <h4>1599</h4>
+                    <p>Complete Projects</p>
+                </div class="milestone">
+            </div>
+            <button><a href="">Learn More</a></button>
+        </div>
+        <img src="img/creativity.png" alt="creativity">
+    </section>
         
     
     </body>
